@@ -1,0 +1,134 @@
+* {
+  margin: auto;
+  padding: 0;
+}
+
+body {
+  color: #fff;
+  font-family: Lobster, cursive;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.header {
+  width: 100%;
+  height: 15%;
+}
+
+.header_box {
+  width: 15%;
+  height: 96%;
+  text-align: center;
+  border-radius: 5%;
+  display: inline-block;
+  position: relative;
+}
+
+.header_logo {
+  background-color: rgb(141, 6, 119);
+}
+
+.header_logo__text {
+  font-size: larger;
+  font-weight: bold;
+  color: rgb(234, 170, 247);
+}
+
+.main-menu {
+  background-color: royalblue;
+  width: 53%;
+  height: 96%;
+  display: inline-block;
+  border-radius: 5%;
+}
+
+.main-menu__box {
+  height: 30%;
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+}
+
+.main-menu a,
+.main-menu a:visited {
+  color: rgb(153, 175, 240);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-menu a:hover {
+  color: rgb(3, 48, 78);
+}
+
+.header__box1 {
+  background-color: rgb(3, 48, 78);
+  color: rgb(129, 200, 248);
+}
+.content {
+  background-color: orange;
+  border-radius: 5%;
+  min-height: 400px;
+}
+.article {
+  display: inline-block;
+  width: 83%;
+}
+.content_box {
+  height: 17%;
+  width: 60%;
+  background-color: orangered;
+  display: inline-block;
+  margin-top: 2%;
+  color: black;
+  padding-left: 5%;
+}
+.content_aside {
+  color: black;
+  display: inline-block;
+  width: 30%;
+  height: 20%;
+  margin-left: 3%;
+  position: relative;
+}
+.aside_sidebar {
+  display: inline-block;
+  width: 10%;
+  color: black;
+  position: absolute;
+  margin-left: 20px;
+  top: 20%;
+}
+
+.footer {
+  width: 100%;
+  background-color: rgb(6, 124, 51);
+  color: white;
+  height: 10%;
+  border-radius: 3%;
+}
+.menu-footer {
+  display: inline-block;
+  background-color: rgb(3, 66, 27);
+  height: 100%;
+  width: 25%;
+  text-align: center;
+  position: relative;
+  margin-left: 15%;
+  border-radius: 5%;
+}
+.footer a,
+.footer a:visited {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  display: inline;
+  padding-left: 20px;
+}
+.footer a:hover {
+  color: black;
+}
+.footer span {
+  padding-left: 5px;
+  display: inline-block;
+  margin-left: 20px;
+}
